@@ -17,4 +17,4 @@ print(rock['Elevation (Meters)'].mean())
 country = vol.groupby('Country')
 italy = country.get_group('Italy')
 
-print("The talest volcano in Italy is", italy['Elevations= (Meters)'].max(), "meters high.")
+print("The tallest volcano in Italy is", italy['Elevation (Meters)'].max(), "meters high.")
